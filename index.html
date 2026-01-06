@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKJ BAZAR | Exclusive Culinary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">TKJ<span> | BAZAR</span></div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#details">Details</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="cta-button">Reservasi Sekarang</button>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-subtitle">Exclusive Culinary Experience</div>
+                <h1 class="hero-title">Exclusive Bazar TKJ</h1>
+                <p class="hero-description">
+                    Sebuah pengalaman kuliner yang sangat unik dimana makanan makanan ini di sajikan secara hangat dan dapat di nikmati oleh pembeli secara langsung
+                </p>
+                <button class="cta-button">Lihat Menu Lengkap</button>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Menu Makanan</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Minuman Signature</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Days Event Only</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Chefs -->
+    <section id="chefs">
+        <div class="container">
+            <h2 class="section-title">Menu Best Seller</h2>
+            <div class="chefs-grid">
+                <!-- Chef cards akan diisi dengan JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Highlights (Makanan & Minuman) -->
+    <section class="menu-highlights" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            
+            <!-- Menu Tabs -->
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="food">
+                    <i class="fas fa-utensils"></i> Makanan
+                </button>
+                <button class="menu-tab" data-category="drinks">
+                    <i class="fas fa-glass-cheers"></i> Minuman
+                </button>
+            </div>
+            
+            <!-- Food Menu -->
+            <div class="menu-category active" id="food-menu">
+                <div class="menu-grid">
+                    <!-- Food items akan diisi dengan JavaScript -->
+                </div>
+            </div>
+            
+            <!-- Drinks Menu -->
+            <div class="menu-category" id="drinks-menu">
+                <div class="menu-grid">
+                    <!-- Drink items akan diisi dengan JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section id="details">
+        <div class="container">
+            <h2 class="section-title">Event Details</h2>
+            <div class="event-details-grid">
+                <!-- Event details akan diisi dengan JavaScript -->
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Lokasi Acara</h3>
+                        <p>Lapangan SMK Bintang Harapan</p>
+                        <p>Cibarusah Jaya</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">   
+                        <h3>Telepon & WhatsApp</h3>
+                        <p><a href="tel:+6281234567890" class="contact-link">+62 895‑3212‑47707 (Marya)</a></p>
+                        <p><a href="tel:+6281234567890" class="contact-link">+62 812-8189-2559 (Fadil)</a></p>
+                        <p>Operational: 09:00 - 14:00 WIB</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@bazareclat.com" class="contact-link">sribintanggt@gmail.com</a></p>
+                        <p>Respon dalam 1x24 jam</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <h3 class="form-title">Informasi Reservasi</h3>
+                <p class="form-subtitle">Untuk reservasi, hubungi langsung via WhatsApp atau email di atas</p>
+                
+                <div class="reservation-info">
+                    <div class="info-box">
+                        <i class="fas fa-clock"></i>
+                        <h4>Jam Operasional Acara</h4>
+                        <p><strong>Tanggal:</strong> 15 Januari 2026</p>
+                        <p><strong>Waktu:</strong> 09:00 - 14:00 WIB</p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <i class="fas fa-calendar-check"></i>
+                        <h4>Pre-Order</h4>
+                        <p><strong>Mulai:</strong> 7 Januari 2026</p>
+                        <p><strong>Info:</strong> Tidak ada minimum spending</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+               <div class="footer-col">
+    <div class="footer-logo">TKJ</div>
+    <p class="footer-description">
+        Sebuah Pengalaman menarik dimana live memasak dan live musik di sajikan di depan para tamu.
+    </p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/switchandeat/?utm_source=ig_web_button_share_sheet" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="social-link">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/6285697103062" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="social-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.tiktok.com/@switchandeat?is_from_webapp=1&sender_device=pc" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="social-link">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+</div> <!-- INI YANG HILANG! -->
+
+
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#details">Event Details</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Follow Us</h4>
+                    <ul class="footer-links">
+                        <li><i class="fab fa-instagram" style="margin-right: 10px;"></i> @Switchandeat</li>
+                        <li><i class="fab fa-whatsapp" style="margin-right: 10px;"></i> +62 812-3456-7890</li>
+                        <li><i class="fab fa-tiktok" style="margin-right: 10px;"></i> @Switchandeat</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Newsletter</h4>
+                    <p class="footer-description">Dapatkan informasi terbaru tentang event dan promo eksklusif.</p>
+                    <div class="form-group" style="margin-top: 15px;">
+                        <input type="email" id="newsletter-email" placeholder="Masukkan email Anda" style="width: 100%;">
+                        <button class="cta-button" id="subscribe-btn" style="width: 100%; margin-top: 10px;">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 0X228. All Rights Reserved. | Development By @0X228 Exclusive</p>
+                <p style="margin-top: 10px; font-size: 12px;">Jl. Raya Serang Cibarusah No.4, Sindangmulya, Kec. Cibarusah, Kabupaten Bekasi, Jawa Barat 17340 | +62 856-9710-3062 </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/typing.js"></script>
+   
+
+</body>
+</html>
